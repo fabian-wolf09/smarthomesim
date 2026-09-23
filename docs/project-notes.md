@@ -2,7 +2,7 @@ Bereich Virtual Engineering 
 
 3D + _Unity_ (Austauschbar) 
 
-Team: Mark Forster, Fabian, Beatriz, me
+Team: Laurin Forster, Fabian, Beatriz, me
 
 VR 
 
@@ -29,8 +29,6 @@ VR 
     *   Sandbox
 *   Weltraum/Raketen Sim
 *   Cafe Sim (Niederlande)
-*   Whore Simulator VR
-    *   you are a Towns whore and need to reach a people goal
 *   Hacking Simulator / Cybersecurity Informations/
     *   idk how
 *   Machine Operator 
