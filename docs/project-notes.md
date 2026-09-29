@@ -1,4 +1,4 @@
-Bereich Virtual Engineering 
+Bereich Virtual Engineering Genauere Geräte Definitonen
 
 3D + _Unity_ (Austauschbar) 
 
@@ -16,48 +16,82 @@ VR 
 ## Ideen
 
 <<<<<<< Updated upstream:docs/project-notes.md
-*   Interaktive Lernvideos / Lernbereiche
-*   <span style="color:hsl(60,75%,60%);">Flugzeugssimulator / Fahrzeugsimulator (z.B für Führerschein \[VR\] )</span> 
-    *   Autos
-    *   Moped
-    *   Busse
-*   AR/VR Product Customization (z.B Auto)
-*   <span style="color:hsl(60,75%,60%);">“Wood Workshop” aber Elektronik</span>
-*   Produktionsstätte Sim
-    *   Abläufe simuliert
-*   <span style="color:hsl(60,75%,60%);">Smart Home Sim</span>
-    *   Haus einrichten mit smarthome devices
-    *   Sandbox
-*   Weltraum/Raketen Sim
-*   Cafe Sim (Niederlande)
-*   Hacking Simulator / Cybersecurity Informations/
-    *   idk how
-*   Machine Operator 
-    *   VR, operates machines
-    *   helping videos
-=======
+
 * Interaktive Lernvideos / Lernbereiche
+
 * <span style="color:hsl(60,75%,60%);">Flugzeugssimulator / Fahrzeugsimulator (z.B für Führerschein \[VR\] )</span> 
+  
   * Autos
   * Moped
   * Busse
+
 * AR/VR Product Customization (z.B Auto)
+
 * <span style="color:hsl(60,75%,60%);">“Wood Workshop” aber Elektronik</span>
+
 * Produktionsstätte Sim
+  
   * Abläufe simuliert
+
 * <span style="color:hsl(60,75%,60%);">Smart Home Sim</span>
+  
   * Haus einrichten mit smarthome devices
   * Sandbox
+
 * Weltraum/Raketen Sim
+
 * Cafe Sim (Niederlande)
-* Whore Simulator VR
-  * you are a Towns whore and need to reach a people goal
+
 * Hacking Simulator / Cybersecurity Informations/
+  
   * idk how
+
 * Machine Operator 
+  
   * VR, operates machines
   * helping videos
->>>>>>> Stashed changes:docs/project-info.md
+    =======
+
+* Interaktive Lernvideos / Lernbereiche
+
+* <span style="color:hsl(60,75%,60%);">Flugzeugssimulator / Fahrzeugsimulator (z.B für Führerschein \[VR\] )</span> 
+  
+  * Autos
+  * Moped
+  * Busse
+
+* AR/VR Product Customization (z.B Auto)
+
+* <span style="color:hsl(60,75%,60%);">“Wood Workshop” aber Elektronik</span>
+
+* Produktionsstätte Sim
+  
+  * Abläufe simuliert
+
+* <span style="color:hsl(60,75%,60%);">Smart Home Sim</span>
+  
+  * Haus einrichten mit smarthome devices
+  * Sandbox
+
+* Weltraum/Raketen Sim
+
+* Cafe Sim (Niederlande)
+
+* Whore Simulator VR
+  
+  * you are a Towns whore and need to reach a people goal
+
+* Hacking Simulator / Cybersecurity Informations/
+  
+  * idk how
+
+* Machine Operator 
+  
+  * VR, operates machines
+  
+  * helping videos
+    
+    > > > > > > > Stashed changes:docs/project-info.md
 
 Rahmenbedingungen: 
 
@@ -79,11 +113,7 @@ Abteile: 
 * Konfig von Geräten (Logik + UI von Handy/Tablet und Einstellungen) - Fabian
 * Platzierung von Geräten (Logik + UI) - Manuel
 
-Haus importieren; Mit VR durchs Haus gehen und SmartHome Experience erleben; SmartHome Geräte nach belieben einrichten
-
-
-
-
+Mit VR durchs Haus gehen und SmartHome Experience erleben; SmartHome Geräte nach belieben einrichten
 
 ### Geräte
 
@@ -98,7 +128,8 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
 * Lampen
   
   * Properties:
-    * Farbe, Helligkeit, Power, Verbrauch
+    * Farbe, Helligkeit, Power
+  - Aktionen: TurnOn, TurnOff, Toggle, SetColor, SetBrightness
   - Formen
     - LED Strip, Deckenleuchte, Stehlampe, Tischlampe
 
@@ -106,14 +137,18 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
   
   * Properties:
     
-    * Zieltemperatur, Solltemp, Isttemp, Power, Verbrauch, Kann(Heizen, Kühlen, beides)
+    * Isttemp, Solltemp, Power, Modus(Heizen, Kühlen, Auto, Off), Lüfterstufe
+  - Aktionen: SetTarget, SetMode, SetFanSpeed
   - Formen: Split, Radiatoren, Wärmewellenheizungen, Wärmepumpe
 - Kamera
   
   - Properties:
     
-    - Power, Videofeed
+    - Videofeed, letztes Ereignis
+  
   - Ereignisse: Motion, Person, Objekt, Auto
+  
+  - Aktionen: Record(min in die Vergangenheit, min in die Zukunft)
   
   - Formen: 
     
@@ -122,21 +157,49 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
   
   * Properties:
     
-    - 100 geöffnet/geschlossen
+    - % geöffnet/geschlossen, Zustand(Fährt hoch ,fährt runter,  gestoppt)
+  - Aktionen: Open, Close, Stop, SetPosition
   - Formen:  
+    
     * Außen, Innen
 - Roboter:
+  
   - Properties:
-    - Location, Akku, Wasserstand, Tankstand
+    - Location, Akku, Wasserstand, Tankstand, ET remaining, Zustand (Docked, Cleaning, Returning, Error)
+  - Aktionen: StartCleaning, Pause, Return
   - Formen: Mähroboter, Saugroboter
+- Haustür:
+  - Properties: Offen, Unlocked, Locked
+  - Aktionen: Open, Unlock, Lock
+
 - Mediaplayer:
+  
   - Properties
-    - Welche Inhalte kann er wiedergeben, Titel, Künstler, Mediastatus
+    - Welche Inhalte kann er wiedergeben(Audio, Audio+Video), Titel, Künstler, Mediastatus, Lautstärke, Mute, Power
+    - Aktionen: Next, Previous, Play, Pause, SetVolume, Mute, TurnOn/Off
   - Formen
     - Fernseher, Lautsprecher
 
-#### Steuergeräte
+- Boiler
+  
+  - Properties: Power, Wasserstand, Isttemp, Solltemp
+  - Aktionen, TurnOn, TurnOff, SetTarget
 
-Wandschalter:
+- Bewegungsmelder:
+  
+  - Events: Bewegung
+  
+  - Properties: letzte Bewegung
+- Kontaktsensor:
+  - Properties: Zustand, Abstand
+  - Events: Opened, Closed
 
-Tablet:
+- Wandschalter
+  
+  - Formen: Schalter, Button
+  
+  - Events: gedrückt
+- Umgebung: 
+  - Properties: Wetter(Temp, Zustand), Zeit, 
+
+- Tablet
