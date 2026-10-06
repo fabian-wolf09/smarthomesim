@@ -1,4 +1,12 @@
-1. 
-    user can place new smarthome devices at designated spots
-
-    smarthome devices get placed at the position chosen by the user
+# Core Features
+- user can place smarthome devices at designated spots/user-defined spots
+- Basic movement
+- tablet
+- device config
+- Enviroment (weather cycle, day/night cylcle)
+- Automation Builder
+- One overwritable savestate with prebuilt config and devices
+# Extra Features
+- Savestates save/load
+- Import your own home
+- Event-Log
