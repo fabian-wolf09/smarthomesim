@@ -128,7 +128,7 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
 * Lampen
   
   * Properties:
-    * Farbe, Helligkeit, Power
+    * Farbe, Helligkeit, Power, Zuletzt verwendete Farben
   - Aktionen: TurnOn, TurnOff, Toggle, SetColor, SetBrightness
   - Formen
     - LED Strip, Deckenleuchte, Stehlampe, Tischlampe
@@ -175,7 +175,7 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
 - Mediaplayer:
   
   - Properties
-    - Welche Inhalte kann er wiedergeben(Audio, Audio+Video), Titel, Künstler, Mediastatus, Lautstärke, Mute, Power
+    - Welche Inhalte kann er wiedergeben(Audio, Audio+Video), Titel, Künstler, Mediastatus, Lautstärke, Mute, Power, Vorschau
     - Aktionen: Next, Previous, Play, Pause, SetVolume, Mute, TurnOn/Off
   - Formen
     - Fernseher, Lautsprecher
