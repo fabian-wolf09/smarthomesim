@@ -165,7 +165,7 @@ Temperatur, Regen/Wetter, Magnetsensor, Kontaktsensor, Bewegungsmelder, Helligke
 - Roboter:
   
   - Properties:
-    - Location, Akku, Wasserstand, Tankstand, ET remaining, Zustand (Docked, Cleaning, Returning, Error)
+    - Akku, Wasserstand(Station, Roboter), Schmutzwasserstand(Station, Roboter), Staubstand(Station, Roboter), ET remaining, Zustand (Docked, Cleaning, Returning, Error)
   - Aktionen: StartCleaning, Pause, Return
   - Formen: Mähroboter, Saugroboter
 - Haustür:
