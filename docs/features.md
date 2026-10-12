@@ -8,5 +8,4 @@
 - One overwritable savestate with prebuilt config and devices
 # Extra Features
 - Savestates save/load
-- Import your own home
 - Event-Log
