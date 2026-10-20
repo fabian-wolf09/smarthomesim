@@ -15,43 +15,6 @@ VR 
 
 ## Ideen
 
-<<<<<<< Updated upstream:docs/project-notes.md
-
-* Interaktive Lernvideos / Lernbereiche
-
-* <span style="color:hsl(60,75%,60%);">Flugzeugssimulator / Fahrzeugsimulator (z.B für Führerschein \[VR\] )</span> 
-  
-  * Autos
-  * Moped
-  * Busse
-
-* AR/VR Product Customization (z.B Auto)
-
-* <span style="color:hsl(60,75%,60%);">“Wood Workshop” aber Elektronik</span>
-
-* Produktionsstätte Sim
-  
-  * Abläufe simuliert
-
-* <span style="color:hsl(60,75%,60%);">Smart Home Sim</span>
-  
-  * Haus einrichten mit smarthome devices
-  * Sandbox
-
-* Weltraum/Raketen Sim
-
-* Cafe Sim (Niederlande)
-
-* Hacking Simulator / Cybersecurity Informations/
-  
-  * idk how
-
-* Machine Operator 
-  
-  * VR, operates machines
-  * helping videos
-    =======
-
 * Interaktive Lernvideos / Lernbereiche
 
 * <span style="color:hsl(60,75%,60%);">Flugzeugssimulator / Fahrzeugsimulator (z.B für Führerschein \[VR\] )</span> 
@@ -91,8 +54,6 @@ VR 
   
   * helping videos
     
-    > > > > > > > Stashed changes:docs/project-info.md
-
 Rahmenbedingungen: 
 
 * Jahresprojekt in Gruppen (2-3 Personen)
