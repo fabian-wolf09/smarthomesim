@@ -47,7 +47,7 @@
 
 # Userstorys Device Hub
 - Als User möchte ich bei den Jalousien einstellen können Zu welcher Tageszeit sie ausfahren sollen, damit ich dies in zukünftigen tests nicht selber machen muss.
-- Als User möchte ich dass einstellen können wann der Staubsagenroboter saugen soll, damit es zum Beispiel nur tagsüber funktioniert.
+- Als User möchte ich dass einstellen können wann der Staubsagenroboter saugen soll und der Gartenroboter mähen soll, damit sie zum Beispiel nur tagsüber funktionieren.
 - Als Nutzer möchte ich im "Device Hub" des Tablets eine Übersicht all meiner platzierten Geräte (z. B. "Bob's room light", "living room door light") sehen, um diese schnell auszuwählen oder bei Bedarf zu löschen.
 - Als Nutzer möchte ich bei Lampen die Helligkeit und Farbe bzw. Farbtemperatur steuern sowie auf zuletzt verwendeten Farben zuzugreifen, um die Beleuchtung schnell anzupassen.
 - Als Nutzer möchte ich bei der Heizung und Klimaanlage die Zieltemperatur über einen Regler (z. B. von 12,0° bis 22,0°) und den Modus (z. B. "Auto", "Heat") sowie die Lüftergeschwindigkeit (Fan Speed) einstellen, zusätzlich möchte ich noch die Ist-Temperatur sehen.
