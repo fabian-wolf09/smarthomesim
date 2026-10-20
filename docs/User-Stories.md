@@ -20,5 +20,28 @@
 
 - Als User will ich unter der Fensterbank eine Heizkörper platzieren können. 
 
-- Als User will ich Wandheizpanele an der Wand platzieren können
+# User Stories 
 
+- Als User möchte ich mich im 3D Haus bewegen können, damit ich mir das ganze Haus frei  anschauen kann.
+
+- Als User möchte ich einen tablet wo ich alles einstellen kann was ich brauche, damit ich es einfacher habe und alles in einen Gerät einstellen kann.
+
+- Als User möchte ich einstellen können ob ich hintergrundmusik will und wie laut.
+
+- Als User möchte ich das Tablet auf der rechten Hand haben und die virtuelle Hand auf der linken Hand und umgekehrt, damit ich für mich immer komfortable habe.
+
+- Als User möchte ich eine App haben wo man Musik und was auf welche Hand ist, einstellen kann, damit ich das Programm so konfigurieren kann wie ich will. 
+
+- Als User möchte ich, Die Temperatur, Uhrzeit sowie auch das Wetter selbst einstellen können, damit ich schnell weiß ob die Geräte so funktionieren wie sie konfiguriert worden sind. 
+
+- Als User möchte ich jederzeit zur Anfangsscreen vom Tablett gehen könne, damit ich nicht immer auf zurück klicken muss. 
+
+- Als User möchte ich eine App haben wo ich alle Kameras sehen kann die ich platziert habe, damit ich schnell Zugriff auf allen Kameras habe. 
+
+- Als User möchte ich in die Kameras App die einzelnen Kamerabilder vergrößern, damit ich es besser sehen kann. 
+
+- Als User möchte ich mit einen klick das Tablett wieder verkleinern und auf die Seite haben wie am Anfang.
+
+- Als User möchte ich über eine App, mir alle die Devices sehen die ich platzieren kann und sie mit einen + im Haus hinzufügen, damit ich schnellen Zugriff auf die Geräte habe. 
+
+- Als User möchte ich über eine App, alle Devices sehen die ich schon platziert habe, damit ich eine guten Übersicht über meine Geräte habe. 
