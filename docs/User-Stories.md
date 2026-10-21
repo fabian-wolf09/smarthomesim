@@ -20,6 +20,22 @@
 
 - Als User will ich Klimaanlagen und Heizkörpern selbst an bestimmten Orten platzieren können, damit die Geräte gut funktionierten. 
 
+
+- Als User möchte ich neue Geräte platzieren können, um die Umgebung nach meinen Wünschen anzupassen. 
+
+- Als User möchte ich bestehende Geräte löschen, falls sie nicht mehr meinen Anforderungen entsprechen. 
+
+- Als User möchte ich eine Art Selektion haben bevor ich ein Gerät lösche, um bessere Kontrolle darüber zu haben, was ich lösche. 
+
+- Als User möchte ich ein Menü haben, wo ich zwischen allen verfügbaren Geräten wählen kann, bevor ich eines platziere. 
+
+- Als User möchte ich das Preview togglen können, sodass es mir nicht die Sicht versperrt wenn nötig. 
+
+- Als User möchte ich das Placement menu verlassen können wann ich will, um auch meine anderen Sachen anschauen zu können. 
+
+- Als User möchte ich, dass positionsabhängige Geräte zu deren gültigen Positionen snappen, damit ich nicht vom richtigen Platz finden frustriert werde. 
+
+
 # User Stories 
 
 - Als User möchte ich mich im 3D Haus bewegen können, damit ich mir das ganze Haus frei  anschauen kann.
