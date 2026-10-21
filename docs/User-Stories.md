@@ -1,22 +1,22 @@
 # User Stories Placements
 
-- Als User will ich Deckenlampen nur auf der Decke platzieren können, woanders schaut es falsch aus. 
+- Als User will ich Deckenlampen nur auf der Decke platzieren können, damit das Gerät gut funktioniert. 
 
-- Als User will ich Wandlampen nur an der Wand platzieren können, woanders schaut es falsch aus. 
+- Als User will ich Wandlampen nur an der Wand platzieren können, damit das Gerät gut funktioniert. 
 
 - Als User will ich, dass das Gerät dort platziert wird, wo ich hin zeige. 
 
 - Als User will ich sehen wo das Gerät hin platziert werden würde. 
 
-- Als User will ich, das man den Garten Robo nur draußen am Boden platzieren kann, anders macht es keinen Sinn
+- Als User will ich, das man den Garten Robo nur draußen am Boden platzieren kann, damit das Gerät gut funktioniert.
 
-- Als User will ich, das man den Staubsauger Robo nur am Boden platzieren kann, anders macht es keinen Sinn
+- Als User will ich, das man den Staubsauger Robo nur am Boden platzieren kann,damit das Gerät gut funktioniert.
 
-- Als User will ich, Jalousine nur bei Fensteröffnungen platzieren können. 
+- Als User will ich, Jalousine nur bei Fensteröffnungen platzieren können, damit das es gut funktioniert. 
 
 - Als User will ich eine Art von Kamera haben die man an der Wand platzieren kann und noch eine Art die man an der Decke platzieren kann. 
 
-- Als User will ich unter der Fensterbank eine Heizkörper platzieren können. 
+- Als User will ich Klimaanlagen und Heizkörpern selbst an bestimmten Orten platzieren können, damit die Geräte gut funktionierten. 
 
 # User Stories 
 
@@ -42,23 +42,23 @@
 
 - Als User möchte ich über eine App, mir alle die Devices sehen die ich platzieren kann und sie mit einen + im Haus hinzufügen, damit ich schnellen Zugriff auf die Geräte habe. 
 
-- Als User möchte ich über eine App, alle Devices sehen die ich schon platziert habe, damit ich eine guten Übersicht über meine Geräte habe. 
-
 
 # Userstorys Device Hub
 - Als User möchte ich bei den Jalousien einstellen können Zu welcher Tageszeit sie ausfahren sollen, damit ich dies in zukünftigen tests nicht selber machen muss.
-- Als User möchte ich bei den Jalousien einstellen können bei welchen Außentemperaturen die Jalousien hoch/runter fahren kann, damit es im haus nie zu warm wird
-- Als User möchte ich das der Staubsaugerroboter automatisch den boden saugt, damit ich ihn nicht steuern muss 
-
+- Als User möchte ich dass einstellen können wann der Staubsagenroboter saugen soll und der Gartenroboter mähen soll, damit sie zum Beispiel nur tagsüber funktionieren.
 - Als Nutzer möchte ich im "Device Hub" des Tablets eine Übersicht all meiner platzierten Geräte (z. B. "Bob's room light", "living room door light") sehen, um diese schnell auszuwählen oder bei Bedarf zu löschen.
 - Als Nutzer möchte ich bei Lampen die Helligkeit und Farbe bzw. Farbtemperatur steuern sowie auf zuletzt verwendeten Farben zuzugreifen, um die Beleuchtung schnell anzupassen.
-- Als Nutzer möchte ich bei der Heizung die Zieltemperatur über einen Regler (z. B. von 12,0° bis 22,0°) und den Modus (z. B. "Auto", "Heat") sowie die Lüftergeschwindigkeit (Fan Speed) einstellen, zusätzlich möchte ich noch die Ist-Temperatur sehen.
+- Als Nutzer möchte ich bei der Heizung und Klimaanlage die Zieltemperatur über einen Regler (z. B. von 12,0° bis 22,0°) und den Modus (z. B. "Auto", "Heat") sowie die Lüftergeschwindigkeit (Fan Speed) einstellen, zusätzlich möchte ich noch die Ist-Temperatur sehen.
 - Als Nutzer möchte ich die Live-Feeds und Aktivitäten meiner Kameras abrufen, um das Haus zu überwachen.
 - Als Nutzer möchte ich bei Schalousien/Rollos den Zustand sehen und die Schalousien ganz öffnen/ganz schließen oder genau die Position einstellen können, um den Lichteinfall im Haus gezielt zu steuern.
 
+ # Userstorys VR
+ - Als User möchte ich mich mit dem Joystick bewegen können, damit ich nicht im echten Raum rumgehen muss um von A nach B zu kommen.
+ - Als User möchte ich mit der VR-Hand auf dem Tablet Bildschirm tippen, weil es intuitiver ist.
+ - Als User möchte ich die möglichkeit haben mich mittels Teleportation fortzubewegen, falls ich motionsickness habe.
 
 
-Device Hub – Übersicht & Verwaltung
+# Device Hub – Übersicht & Verwaltung
 
 - Als Nutzer möchte ich die Device Hub auf meinem Tablet öffnen können, um eine Liste all meiner platzierten Smart-Home-Geräte zu sehen.
 - Als Nutzer möchte ich in der Geräteliste den Namen und den zugewiesenen Raum des Geräts lesen können, um das richtige Objekt im Haus eindeutig zu identifizieren.
