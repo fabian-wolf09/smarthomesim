@@ -54,7 +54,47 @@
 - Als Nutzer möchte ich die Live-Feeds und Aktivitäten meiner Kameras abrufen, um das Haus zu überwachen.
 - Als Nutzer möchte ich bei Schalousien/Rollos den Zustand sehen und die Schalousien ganz öffnen/ganz schließen oder genau die Position einstellen können, um den Lichteinfall im Haus gezielt zu steuern.
 
-  # Userstorys VR
-  - Als User möchte ich mich mit dem Joystick bewegen können, damit ich nicht im echten Raum rumgehen muss um von A nach B zu kommen.
-  - Als User möchte ich mit der VR-Hand auf dem Tablet Bildschirm tippen, weil es intuitiver ist.
-  - Als User möchte ich die möglichkeit haben mich mittels Teleportation fortzubewegen, falls ich motionsickness habe.
+ # Userstorys VR
+ - Als User möchte ich mich mit dem Joystick bewegen können, damit ich nicht im echten Raum rumgehen muss um von A nach B zu kommen.
+ - Als User möchte ich mit der VR-Hand auf dem Tablet Bildschirm tippen, weil es intuitiver ist.
+ - Als User möchte ich die möglichkeit haben mich mittels Teleportation fortzubewegen, falls ich motionsickness habe.
+
+
+# Device Hub – Übersicht & Verwaltung
+
+- Als Nutzer möchte ich die Device Hub auf meinem Tablet öffnen können, um eine Liste all meiner platzierten Smart-Home-Geräte zu sehen.
+- Als Nutzer möchte ich in der Geräteliste den Namen und den zugewiesenen Raum des Geräts lesen können, um das richtige Objekt im Haus eindeutig zu identifizieren.
+- Als Nutzer möchte ich jedes Gerät antippen und bearbeiten können, um das Gerät zu löschen und die spezifische Detail- und Einstellungsseite dieses einen Geräts bearbeiten zu können.
+- Als Nutzer möchte ich nach dem Tippen auf den Mülleimer ein Pop-up-Fenster (z. B. "Are you sure you want to delete Bob's room light?") mit "Yes" und "Cancel" sehen, um zu verhindern, dass ich ein Gerät versehentlich lösche.
+
+Allgemeine Detailansicht (Gilt für alle Geräte)
+
+- Als Nutzer möchte ich am oberen Rand der Detailseite den Namen und Raum des Geräts (z. B. "Room Gerätename") sehen, um bestätigt zu bekommen, in welchem Menü ich mich befinde.
+- Als Nutzer möchte ich einen "Zurück"-Button drücken können, um die Ansicht zu verlassen und zum Hauptmenü zurückzukehren.
+
+Lichtsteuerung (Lampen)
+
+- Als Nutzer möchte ich in der Licht-Ansicht auf einen Power-Button (Ein/Aus-Symbol) tippen können, um die Lampe direkt aus- oder einzuschalten.
+- Als Nutzer möchte ich in der Licht-Ansicht einen Helligkeits-Button (Sonnen-Symbol) anwählen können, um Zugriff auf die Dimm-Funktion der Lampe zu erhalten.
+- Als Nutzer möchte ich auf ein Farbrad tippen können, um eine exakte, stufenlose Farbe für meine RGB-Lampe einzustellen.
+- Als Nutzer möchte ich in der Sektion "Zuletzt verwendet" auf bis zu 10 zuletzt verwendete Farben tippen können, um sofort zu meinen vorherigen Farben zurückzuwechseln, ohne das Farbrad neu einstellen zu müssen.
+
+Heizung & Klima
+
+- Als Nutzer möchte ich die gewünschte Zieltemperatur über einen kreisförmigen Slider (mit einem verschiebbaren Punkt auf dem Rand) stufenlos anpassen können, um das Raumklima grafisch und intuitiv zu regeln.
+- Als Nutzer möchte ich die aktuelle Einstellung (z. B. "12,0° -> 22,0°") als Text in der Mitte des Sliders sehen, um den genauen Gradwert präzise ablesen zu können.
+- Als Nutzer möchte ich die Temperatur über Plus- (+) und Minus- (-) Buttons in Einzelschritten verändern können, um eine feine Justierung vorzunehmen.
+- Als Nutzer möchte ich in der Heizungs-Ansicht auf einen zentralen Power-Button tippen können, um das Klimagerät komplett ein- oder auszuschalten.
+- Als Nutzer möchte ich über das Feld "Modus / Mode" (z. B. "Auto" oder "Heat") das grundsätzliche Verhalten der Heizung umschalten können, um sie an die Jahreszeit anzupassen.
+- Als Nutzer möchte ich über das Feld "Fan Speed" die Lüfterstufe (z. B. mit Plus- und Minus-Buttons) regulieren können, um die Intensität des Luftstroms zu verändern.
+
+Kameras
+
+- Als Nutzer möchte meine Überwachungskamera (z. B. "front door cam", "garden cam") sehen, um den Videofeed zu sehen.
+- Als Nutzer möchte ich in der Detailansicht einer Kamera eine Liste von "Aktivitäten" (z. B. "Person 23:00, 1 min") ablesen können, um nachzuvollziehen, wann Bewegungen in der Vergangenheit aufgezeichnet wurden.
+
+Schalousien / Rollos
+
+- Als Nutzer möchte ich in der Detailansicht der Schalousien einen Prozentwert (z. B. "50%") ablesen können, um den exakten Öffnungsgrad des Rollos zu überprüfen.
+- Als Nutzer möchte ich auf einen "Open"-Button tippen können, um das Rollo automatisch komplett hochzufahren.
+- Als Nutzer möchte ich auf einen "Close"-Button tippen können, um das Rollo automatisch komplett herunterzufahren.
