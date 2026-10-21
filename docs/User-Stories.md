@@ -53,3 +53,8 @@
 - Als Nutzer möchte ich bei der Heizung und Klimaanlage die Zieltemperatur über einen Regler (z. B. von 12,0° bis 22,0°) und den Modus (z. B. "Auto", "Heat") sowie die Lüftergeschwindigkeit (Fan Speed) einstellen, zusätzlich möchte ich noch die Ist-Temperatur sehen.
 - Als Nutzer möchte ich die Live-Feeds und Aktivitäten meiner Kameras abrufen, um das Haus zu überwachen.
 - Als Nutzer möchte ich bei Schalousien/Rollos den Zustand sehen und die Schalousien ganz öffnen/ganz schließen oder genau die Position einstellen können, um den Lichteinfall im Haus gezielt zu steuern.
+
+  # Userstorys VR
+  - Als User möchte ich mich mit dem Joystick bewegen können, damit ich nicht im echten Raum rumgehen muss um von A nach B zu kommen.
+  - Als User möchte ich mit der VR-Hand auf dem Tablet Bildschirm tippen, weil es intuitiver ist.
+  - Als User möchte ich die möglichkeit haben mich mittels Teleportation fortzubewegen, falls ich motionsickness habe.
