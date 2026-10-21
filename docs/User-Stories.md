@@ -56,7 +56,9 @@
 
 - Als User möchte ich mit einen klick das Tablett wieder verkleinern und auf die Seite haben wie am Anfang.
 
-- Als User möchte ich über eine App, mir alle die Devices sehen die ich platzieren kann und sie mit einen + im Haus hinzufügen, damit ich schnellen Zugriff auf die Geräte habe. 
+- Als User möchte ich über eine App, mir alle die Devices sehen die ich platzieren kann und sie mit einen + im Haus hinzufügen, damit ich schnellen Zugriff auf die Geräte habe.
+
+- Als User möchte ich die Möglichkeit haben ein vorkonfiguriertes Haus zu besichtigen und daran weiterzuarbeiten, aber auch die das Haus zurücksetzen und von null beginnen.
 
 
 # Userstorys Device Hub
