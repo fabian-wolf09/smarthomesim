@@ -6,8 +6,6 @@
 
 - Als User will ich, dass das Gerät dort platziert wird, wo ich hin zeige. 
 
-- Als User will ich, dass man die Geräte vor dem platzieren noch drehen/bewegen kann.
-
 - Als User will ich sehen wo das Gerät hin platziert werden würde. 
 
 - Als User will ich, das man den Garten Robo nur draußen am Boden platzieren kann, damit das Gerät gut funktioniert.
@@ -38,9 +36,9 @@
 
 # User Stories 
 
-- Als User möchte ich mich im 3D Haus bewegen können, damit ich mir das ganze Haus frei  anschauen kann.
+- Als User möchte ich mich im 3D Haus bewegen können, damit ich mir das ganze Haus frei anschauen kann.
 
-- Als User möchte ich einen tablet wo ich alles einstellen kann was ich brauche, damit ich es einfacher habe und alles in einen Gerät einstellen kann.
+- Als User möchte ich einen Tablet haben wo ich alles einstellen kann was ich brauche, damit ich es einfacher habe und alles in einen Gerät einstellen kann.
 
 - Als User möchte ich einstellen können ob ich hintergrundmusik will und wie laut.
 
@@ -114,3 +112,13 @@ Schalousien / Rollos
 - Als Nutzer möchte ich in der Detailansicht der Schalousien einen Prozentwert (z. B. "50%") ablesen können, um den exakten Öffnungsgrad des Rollos zu überprüfen.
 - Als Nutzer möchte ich auf einen "Open"-Button tippen können, um das Rollo automatisch komplett hochzufahren.
 - Als Nutzer möchte ich auf einen "Close"-Button tippen können, um das Rollo automatisch komplett herunterzufahren.
+
+# User Stories 3D
+
+- Als User möchte ich mich in einen 3D Haus befinden, damit ich dort das Haus mit den Devices so gestalten kann wie ich will.
+- Als User möchte ich dass am Anfang gleich ein paar basic Geräte im Haus platziert sind mit fertige Konfigurationen, damit ich einen leichten Start habe.
+- Als User möchte ich alle Geräte die ich habe, über Device-Hub mit einen Button (select all) und dann Löschbutton, löschen kann, damit ich schnell ein leeres Haus habe und selbst die Geräte neu platzieren und konfigurieren kann.
+- Als User möchte ich alle Geräte in 3D haben, damit sie zu den Haus passen und der Realität ähnlich sind.
+- Als User möchte ich dass alle Geräte konfigurierbar sind, damit ich meine eigene Konfigurationen bei jeden Gerät haben kann in meinen Smart Home.
+- Als User möchte ich dass sich das Wetter in der Umgebung ändert, damit ich weiß ob meine Konfigurationen funktionierten.
+- Als User möchte ich im Haus Punkte am Boden haben wo ich mich hin teleportieren kann und sie sollen auch blinken, damit ich weiß ich kann mich genau dorthin teleportieren um mich im Haus zu bewegen.
