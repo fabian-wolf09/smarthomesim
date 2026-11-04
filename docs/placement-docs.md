@@ -1,18 +1,27 @@
-# Placement of new smart devices (UI & Logic)
+Placement of new smart devices (UI & Logic)
+===========================================
 
 this feature is accessible via the `hub icon` on the main screen
 
-## GUI
+GUI
+----
+
+<img src="placement-menu.png" alt="Placement Selection Menu" width="300"/>
+
 
 is now in phone 
 -> started via Market
 
 has clickable icons for each and every diff smartdevice
 
+
+
+
 upon selecting wanted device, starts active placement. <a href="When placing">see here for active placement</a>
 
 
-## Backend
+Backend
+-------
 
 upon creating a new device (by placing it), adds it to global registry (so that it can be configured via smartphone/tablet) 
 
@@ -25,16 +34,18 @@ good tagging of objects in project (windows, doors and such)
 devices appear transparent when selecting placement position
 
 
-## Controls ```[based on Meta Quest 3]```
+Controls ```[based on Meta Quest 3]```
+---------------------------------------
 
-### ```[When not active placing]```
+ ```[When not active placing]```
+====================================
 
 Right controller: 
 - Joystick: Selecting what device in the menu 
-- R1
-- R2 
-- BR1
-- BR2
+- <kbd>R1
+- <kbd>R2 
+- <kbd>BR1
+- <kbd>BR2
 
 Left controller: 
 - Joystick: Movement
