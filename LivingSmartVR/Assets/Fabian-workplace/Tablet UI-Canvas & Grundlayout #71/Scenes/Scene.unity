@@ -2589,6 +2589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1623567652}
+  - component: {fileID: 1623567653}
   m_Layer: 0
   m_Name: Tablet
   m_TagString: Untagged
@@ -2613,6 +2614,26 @@ Transform:
   - {fileID: 1171383258}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1623567653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623567651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeacd975dedce1f4eb5ff34e49dec81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TabletManager
+  homeScreenPanel: {fileID: 631217554}
+  settingsPanel: {fileID: 0}
+  camerasPanel: {fileID: 0}
+  devicesPanel: {fileID: 0}
+  deviceHubPanel: {fileID: 0}
+  timeText: {fileID: 1530944245}
+  weatherIcon: {fileID: 859409310}
+  temperatureText: {fileID: 851470864}
 --- !u!1 &1639608319
 GameObject:
   m_ObjectHideFlags: 0
