@@ -8,7 +8,7 @@ public class TabletManager : MonoBehaviour
     [SerializeField] private GameObject homeScreenPanel;
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private GameObject camerasPanel;
-    [SerializeField] private GameObject devicesPanel;
+    [SerializeField] private GameObject placingPanel;
     [SerializeField] private GameObject deviceHubPanel;
 
     [Header("Top Bar Elements")]
@@ -28,7 +28,7 @@ public class TabletManager : MonoBehaviour
 
     public void OpenSettings() => SwitchPanel(settingsPanel);
     public void OpenCameras() => SwitchPanel(camerasPanel);
-    public void OpenDevices() => SwitchPanel(devicesPanel);
+    public void OpenPlacing() => SwitchPanel(placingPanel);
     public void OpenDeviceHub() => SwitchPanel(deviceHubPanel);
 
     private void SwitchPanel(GameObject targetPanel)
@@ -36,7 +36,7 @@ public class TabletManager : MonoBehaviour
         if (homeScreenPanel != null) homeScreenPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false);
         if (camerasPanel != null) camerasPanel.SetActive(false);
-        if (devicesPanel != null) devicesPanel.SetActive(false);
+        if (placingPanel != null) placingPanel.SetActive(false);
         if (deviceHubPanel != null) deviceHubPanel.SetActive(false);
 
         if (targetPanel != null)
@@ -53,7 +53,7 @@ public class TabletManager : MonoBehaviour
             timeText.text = $"{hours:00}:{minutes:00}";
         }
     }
-    
+
     public void UpdateWeather(string iconName, float temperature)
     {
         Sprite icon = Resources.Load<Sprite>($"Assets/Fabian-workplace/Tablet UI-Canvas & Grundlayout #71/Images/Icons/{iconName}" + ".png");

@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3974919}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1623567653}
+        m_TargetAssemblyTypeName: TabletManager, Assembly-CSharp
+        m_MethodName: OpenSettings
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3974919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,7 +1223,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 964158016}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1623567653}
+        m_TargetAssemblyTypeName: TabletManager, Assembly-CSharp
+        m_MethodName: OpenDeviceHub
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &964158016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1469,7 +1493,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1027850225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1623567653}
+        m_TargetAssemblyTypeName: TabletManager, Assembly-CSharp
+        m_MethodName: OpenCameras
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1027850225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2629,7 +2665,7 @@ MonoBehaviour:
   homeScreenPanel: {fileID: 631217554}
   settingsPanel: {fileID: 0}
   camerasPanel: {fileID: 0}
-  devicesPanel: {fileID: 0}
+  placingPanel: {fileID: 0}
   deviceHubPanel: {fileID: 0}
   timeText: {fileID: 1530944245}
   weatherIcon: {fileID: 859409310}
@@ -2964,7 +3000,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1731567415}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1623567653}
+        m_TargetAssemblyTypeName: TabletManager, Assembly-CSharp
+        m_MethodName: OpenPlacing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1731567415
 MonoBehaviour:
   m_ObjectHideFlags: 0
