@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d736763234e623a1b370363dfb73b96
+guid: 67b97c903a05e51d1ac0de329050bd6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2439980043377583013
-    second: Cloudy_0
+      213: -264208677167249788
+    second: moon (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cloudy_0
+      name: moon (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a320900cec8cd120800000000000000
-      internalID: 2439980043377583013
+      spriteID: 486ced2ab97555cf0800000000000000
+      internalID: -264208677167249788
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cloudy_0: 2439980043377583013
+      moon (1)_0: -264208677167249788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

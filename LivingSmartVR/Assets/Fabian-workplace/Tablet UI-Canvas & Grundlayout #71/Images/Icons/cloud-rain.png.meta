@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 94baf11011c1b9c1bb633f0424f999be
+guid: d301a1b50822860338928bba83cf3417
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8156622943692282034
-    second: Exit 1_0
+      213: -1058024087468805020
+    second: cloud-rain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Exit 1_0
+      name: cloud-rain_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1600
-        height: 1600
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b854950a55223170800000000000000
-      internalID: 8156622943692282034
+      spriteID: 4647d96b2b42151f0800000000000000
+      internalID: -1058024087468805020
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Exit 1_0: 8156622943692282034
+      cloud-rain_0: -1058024087468805020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
