@@ -17,8 +17,11 @@ has clickable icons for each and every diff smartdevice
 
 
 
-upon selecting wanted device, starts active placement. <a href="When placing">see here for active placement</a>
+upon selecting wanted device, starts active placement.
 
+
+
+<img src="placement-active.png" alt="active Placement Menu" width="300"/>
 
 Backend
 -------
