@@ -16,20 +16,54 @@ public class TabletManager : MonoBehaviour
     [SerializeField] private Image weatherIcon;
     [SerializeField] private TMP_Text temperatureText;
 
+    [Header("Time Speed Button")]
+    [Tooltip("Optional: Text auf dem Button, der die aktuelle Geschwindigkeit anzeigt")]
+    [SerializeField] private TMP_Text timeSpeedText;
+
+    [Tooltip("Optional: Image auf dem Button, das das passende 0x/1x/2x/8x-Icon anzeigt")]
+    [SerializeField] private Image timeSpeedIcon;
+
+    [Header("Environment")]
+    [Tooltip("Leer lassen = wird automatisch über EnviromentManager.Instance gesucht")]
+    [SerializeField] private EnviromentManager environment;
+
     private GameObject currentActivePanel;
 
     private void Start()
     {
         SwitchPanel(homeScreenPanel);
+
+        if (environment == null) environment = EnviromentManager.Instance;
+        if (environment == null) environment = FindFirstObjectByType<EnviromentManager>();
+
+        if (environment == null)
+        {
+            Debug.LogError("[TabletManager] Kein EnviromentManager in der Szene gefunden.");
+            return;
+        }
+
+        environment.OnTimeChanged += UpdateTime;
+        environment.OnWeatherChanged += UpdateWeather;
+        environment.OnTimeSpeedChanged += UpdateTimeSpeed;
+
+        UpdateTime();
+        UpdateWeather();
+        UpdateTimeSpeed();
     }
 
-
-
+    private void OnDestroy()
+    {
+        if (environment == null) return;
+        environment.OnTimeChanged -= UpdateTime;
+        environment.OnWeatherChanged -= UpdateWeather;
+        environment.OnTimeSpeedChanged -= UpdateTimeSpeed;
+    }
 
     public void OpenSettings() => SwitchPanel(settingsPanel);
     public void OpenCameras() => SwitchPanel(camerasPanel);
     public void OpenPlacing() => SwitchPanel(placingPanel);
     public void OpenDeviceHub() => SwitchPanel(deviceHubPanel);
+    public void ReturnToHomeScreen() => SwitchPanel(homeScreenPanel);
 
     private void SwitchPanel(GameObject targetPanel)
     {
@@ -46,24 +80,52 @@ public class TabletManager : MonoBehaviour
         }
     }
 
-    public void UpdateClock(int hours, int minutes)
+    public void CycleTimeSpeed()
+    {
+        if (environment != null) environment.CycleTimeSpeed();
+    }
+
+    public void SetTimeSpeedIndex(int index)
+    {
+        if (environment != null) environment.SetTimeSpeedIndex(index);
+    }
+
+    public void SetTimeSpeed(float speed)
+    {
+        if (environment != null) environment.SetTimeSpeed(speed);
+    }
+
+    private void UpdateTime()
     {
         if (timeText != null)
         {
-            timeText.text = $"{hours:00}:{minutes:00}";
+            timeText.text = environment.GetFormattedTime();
         }
     }
 
-    public void UpdateWeather(string iconName, float temperature)
+    private void UpdateWeather()
     {
-        Sprite icon = Resources.Load<Sprite>($"Assets/Fabian-workplace/Tablet UI-Canvas & Grundlayout #71/Images/Icons/{iconName}" + ".png");
         if (weatherIcon != null)
         {
-            weatherIcon.sprite = icon;
+            Sprite icon = environment.GetWeatherIcon();
+            if (icon != null) weatherIcon.sprite = icon;
         }
         if (temperatureText != null)
         {
-            temperatureText.text = $"{temperature:0}°C";
+            temperatureText.text = environment.GetFormattedTemperature();
+        }
+    }
+
+    private void UpdateTimeSpeed()
+    {
+        if (timeSpeedText != null)
+        {
+            timeSpeedText.text = environment.GetTimeSpeedLabel();
+        }
+        if (timeSpeedIcon != null)
+        {
+            Sprite icon = environment.GetTimeSpeedIcon();
+            if (icon != null) timeSpeedIcon.sprite = icon;
         }
     }
 }
