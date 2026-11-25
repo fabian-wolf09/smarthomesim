@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 public class MouseTest : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header("Target for Aiming")]
     [SerializeField] GameObject controller; 
     void Start()
     {
@@ -15,21 +16,19 @@ public class MouseTest : MonoBehaviour
         if(Keyboard.current.wKey.isPressed)
         {
             RaycastHit hit;
-
             Vector3 mouse = Mouse.current.position.ReadValue();
-            //Vector3 vec = new Vector3(mouse.x, mouse.y, 300);
-            mouse.z = -30;
-            Debug.Log(mouse + " | " + transform.position);
-            Debug.DrawRay(transform.position, mouse * 99999999, Color.red);
-
-            if (Physics.Raycast(transform.position, mouse, out hit, 99999999))
+            Ray ray = Camera.main.ScreenPointToRay(mouse);
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(mouse);
+            Debug.Log(mouse + "(" + mousePos + ") - | " + transform.position);
+            Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+            if (Physics.Raycast(ray.origin, ray.direction * 1000, out hit, 99999999))
+            {
                 print("Found an object - distance: " + hit.distance);
+                
+            }
+                
+
         }
-
-        //controller.transform.rotation = transform.position - controller.transform.position;
-
-
-
 
     }
 }
